@@ -3,7 +3,7 @@ import UserModel from "../models/users.model.js";
 class UserController {
 
     async findAll(req, res) {
-        const { name, email } = req.query;
+        const { name, email, password } = req.query;
         try {
             const users = await UserModel.findAll(name, email, password);
 
