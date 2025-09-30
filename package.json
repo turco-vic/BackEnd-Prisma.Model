@@ -1,0 +1,31 @@
+{
+  "name": "backend-prisma.model",
+  "version": "1.0.0",
+  "description": "Projeto Back-End em Node.JS com Prisma ORM",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turco-vic/BackEnd-Prisma.Model.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "SENAI",
+    "JavaScript",
+    "Prisma",
+    "Backend"
+  ],
+  "author": "Enzo Turcovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turco-vic/BackEnd-Prisma.Model/issues"
+  },
+  "homepage": "https://github.com/turco-vic/BackEnd-Prisma.Model#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
