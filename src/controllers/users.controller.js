@@ -1,4 +1,4 @@
-// import UserModel from "../models/game.model.js";
+import UserModel from "../models/users.model.js";
 
 class UserController {
 
